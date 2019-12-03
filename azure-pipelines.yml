@@ -41,3 +41,7 @@ steps:
     vstsFeedPublish: '8cb5a9da-35e2-4695-86f3-e9f9877d354d/f2f0f529-fd21-45ee-8bdd-8a6e331b2633'
     vstsFeedPackagePublish: 'f'
     versionOption: 'minor'
+
+- task: WhiteSource Bolt@19
+  inputs:
+    cwd: '$(System.DefaultWorkingDirectory)'
